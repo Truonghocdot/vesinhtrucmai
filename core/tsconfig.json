@@ -1,8 +1,16 @@
 {
-  "extends": "fastify-tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
-    "sourceMap": true
+    "target": "ES2022",                          /* Phiên bản JavaScript đầu ra */
+    "module": "NodeNext",                        /* Quản lý module theo chuẩn Node.js mới nhất */
+    "moduleResolution": "NodeNext",              /* Cách tìm kiếm đường dẫn module */
+    
+    "rootDir": "./src",                          /* Thư mục chứa code TypeScript gốc */
+    "outDir": "./dist",                          /* Thư mục chứa code JavaScript sau khi biên dịch */
+    
+    "esModuleInterop": true,                     /* Hỗ trợ import các gói CommonJS mượt mà */
+    "forceConsistentCasingInFileNames": true,    /* Bắt lỗi phân biệt chữ hoa/thường trong tên file */
+    "strict": true,                              /* Bật chế độ kiểm tra kiểu dữ liệu nghiêm ngặt */
+    "skipLibCheck": true                         /* Bỏ qua kiểm tra lỗi kiểu trong node_modules để build nhanh hơn */
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*"]                        /* Chỉ quét và biên dịch các file nằm trong thư mục src */
 }
