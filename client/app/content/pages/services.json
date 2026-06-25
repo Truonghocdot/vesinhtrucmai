@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "eyebrow": "Danh mục dịch vụ",
+    "title": "Chọn đúng gói vệ sinh theo loại mặt bằng và mục tiêu sử dụng.",
+    "description": "Trúc Mai xây từng nhóm dịch vụ theo thực tế triển khai: nhà ở cần sự tinh gọn, văn phòng cần ổn định, còn công nghiệp cần phối hợp chặt về an toàn và tiến độ.",
+    "primaryCta": { "label": "Xem bảng giá", "href": "/bang-gia" },
+    "secondaryCta": { "label": "Đặt lịch tư vấn", "href": "/booking" }
+  },
+  "seo": {
+    "title": "Dịch vụ vệ sinh | Vệ Sinh Trúc Mai",
+    "description": "Khám phá các dịch vụ vệ sinh nhà ở, vệ sinh văn phòng và vệ sinh công nghiệp của Vệ Sinh Trúc Mai tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "dich vu ve sinh",
+      "ve sinh nha o",
+      "ve sinh van phong",
+      "ve sinh cong nghiep"
+    ]
+  }
+}

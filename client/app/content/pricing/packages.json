@@ -1,0 +1,61 @@
+[
+  {
+    "code": "nha-o-goi-gon-gang",
+    "name": "Gói nhà ở gọn gàng",
+    "appliesTo": ["ve-sinh-nha-o"],
+    "summary": "Phù hợp căn hộ hoặc nhà phố cần làm định kỳ, ưu tiên bề mặt sinh hoạt chính.",
+    "items": [
+      { "label": "Studio / 1 phòng ngủ", "price": "Từ 450.000đ / lần" },
+      { "label": "2 - 3 phòng ngủ", "price": "Từ 700.000đ / lần" },
+      { "label": "Nhà phố nhiều tầng", "price": "Khảo sát nhanh trước khi chốt" }
+    ],
+    "notes": [
+      "Giá có thể thay đổi theo mức độ bám bẩn và số khu vực đặc thù như kính cao, bếp nặng dầu mỡ.",
+      "Phù hợp cho lịch dọn định kỳ hoặc trước dịp đón khách."
+    ]
+  },
+  {
+    "code": "nha-o-tong-luc",
+    "name": "Gói tổng vệ sinh nhà ở",
+    "appliesTo": ["ve-sinh-nha-o"],
+    "summary": "Dành cho nhu cầu làm kỹ sau sửa chữa, trước khi chuyển vào ở hoặc cần xử lý vệ sinh sâu.",
+    "items": [
+      { "label": "Căn hộ tổng vệ sinh", "price": "Từ 1.500.000đ", "note": "Tùy diện tích và hiện trạng" },
+      { "label": "Nhà phố tổng vệ sinh", "price": "Từ 2.200.000đ", "note": "Có thể cần khảo sát video" }
+    ],
+    "notes": [
+      "Ưu tiên khảo sát trước với các mặt bằng có nhiều bụi mịn hoặc phát sinh sau hoàn thiện nội thất.",
+      "Báo giá bao gồm checklist chi tiết theo khu vực."
+    ]
+  },
+  {
+    "code": "van-phong-dinh-ky",
+    "name": "Gói vệ sinh văn phòng định kỳ",
+    "appliesTo": ["ve-sinh-van-phong"],
+    "summary": "Tối ưu cho văn phòng nhỏ và vừa cần nhịp vận hành sạch ổn định theo tuần hoặc theo ngày.",
+    "items": [
+      { "label": "Văn phòng dưới 100m2", "price": "Từ 1.800.000đ / tháng" },
+      { "label": "100m2 - 250m2", "price": "Từ 3.500.000đ / tháng" },
+      { "label": "Thi công ngoài giờ hành chính", "price": "Điều chỉnh theo khung giờ" }
+    ],
+    "notes": [
+      "Có thể xây lịch theo ca sáng sớm, cuối ngày hoặc cuối tuần.",
+      "Chi phí phụ thuộc tần suất, số toilet, pantry và khu vực kính."
+    ]
+  },
+  {
+    "code": "cong-nghiep-tong-luc",
+    "name": "Gói vệ sinh công nghiệp tổng lực",
+    "appliesTo": ["ve-sinh-cong-nghiep"],
+    "summary": "Dành cho mặt bằng lớn, nhà xưởng hoặc khu vực cần phối hợp nhân sự và tiến độ sát hơn.",
+    "items": [
+      { "label": "Khu sản xuất / kho vận", "price": "Báo giá theo khảo sát" },
+      { "label": "Mặt bằng sau thi công", "price": "Từ 18.000đ / m2" },
+      { "label": "Làm đêm / làm theo ca", "price": "Xác nhận sau khi chốt phương án" }
+    ],
+    "notes": [
+      "Cần trao đổi trước về an toàn khu vực, thiết bị hỗ trợ và thời gian bàn giao.",
+      "Phù hợp với nhà xưởng, sảnh lớn, hành lang rộng hoặc khu vực sau xây dựng."
+    ]
+  }
+]

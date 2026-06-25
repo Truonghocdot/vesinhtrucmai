@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "eyebrow": "Bảng giá tham khảo",
+    "title": "Mức giá gợi ý để bạn hình dung đúng ngân sách trước khi trao đổi chi tiết.",
+    "description": "Bảng giá của Trúc Mai được chia theo nhóm dịch vụ. Mức thực tế có thể thay đổi theo diện tích, hiện trạng và khung thời gian thi công, nhưng luôn được xác nhận lại trước khi làm.",
+    "primaryCta": { "label": "Đặt lịch khảo sát", "href": "/booking" },
+    "secondaryCta": { "label": "Xem dịch vụ", "href": "/dich-vu" }
+  },
+  "seo": {
+    "title": "Bảng giá dịch vụ vệ sinh | Vệ Sinh Trúc Mai",
+    "description": "Bảng giá tham khảo cho các dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp của Vệ Sinh Trúc Mai.",
+    "keywords": [
+      "bang gia ve sinh",
+      "gia tong ve sinh nha",
+      "gia ve sinh van phong",
+      "gia ve sinh cong nghiep"
+    ]
+  }
+}

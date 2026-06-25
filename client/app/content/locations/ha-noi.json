@@ -1,0 +1,40 @@
+{
+  "slug": "ha-noi",
+  "name": "Hà Nội",
+  "intro": "Tại Hà Nội, Trúc Mai tập trung vào những nhu cầu cần phản hồi nhanh, di chuyển linh hoạt và xử lý gọn các mặt bằng có nhịp sinh hoạt hoặc nhịp làm việc dày.",
+  "districts": [
+    "Cầu Giấy",
+    "Đống Đa",
+    "Nam Từ Liêm",
+    "Thanh Xuân",
+    "Hoàng Mai"
+  ],
+  "focusAreas": [
+    "Căn hộ gia đình",
+    "Văn phòng vận hành hằng ngày",
+    "Mặt bằng hậu thi công cần bàn giao"
+  ],
+  "serviceHighlights": [
+    {
+      "serviceSlug": "ve-sinh-nha-o",
+      "blurb": "Phù hợp căn hộ chung cư, nhà phố và nhu cầu tổng vệ sinh theo đợt."
+    },
+    {
+      "serviceSlug": "ve-sinh-van-phong",
+      "blurb": "Linh hoạt theo khung giờ trước khi nhân sự bắt đầu làm việc hoặc sau giờ hành chính."
+    },
+    {
+      "serviceSlug": "ve-sinh-cong-nghiep",
+      "blurb": "Thích hợp khi cần xử lý nhanh mặt bằng mới hoàn thiện hoặc khu vực bàn giao theo tiến độ."
+    }
+  ],
+  "seo": {
+    "title": "Dịch vụ vệ sinh tại Hà Nội | Vệ Sinh Trúc Mai",
+    "description": "Dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp tại Hà Nội với quy trình gọn gàng, phản hồi nhanh.",
+    "keywords": [
+      "ve sinh ha noi",
+      "dich vu don dep ha noi",
+      "tong ve sinh ha noi"
+    ]
+  }
+}

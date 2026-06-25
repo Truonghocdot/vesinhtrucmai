@@ -1,0 +1,40 @@
+{
+  "slug": "thanh-hoa",
+  "name": "Thanh Hóa",
+  "intro": "Tại Thanh Hóa, Trúc Mai ưu tiên các nhu cầu vệ sinh gia đình, văn phòng địa phương và những ca cần phối hợp kỹ để giữ tiến độ bàn giao nhưng vẫn tối ưu chi phí hợp lý.",
+  "districts": [
+    "TP Thanh Hóa",
+    "Sầm Sơn",
+    "Bỉm Sơn",
+    "Nghi Sơn",
+    "Hoằng Hóa"
+  ],
+  "focusAreas": [
+    "Nhà ở và căn hộ mới hoàn thiện",
+    "Văn phòng nhỏ và vừa",
+    "Mặt bằng cần tổng vệ sinh trước khi đưa vào sử dụng"
+  ],
+  "serviceHighlights": [
+    {
+      "serviceSlug": "ve-sinh-nha-o",
+      "blurb": "Phù hợp gia đình cần tổng vệ sinh cuối tuần hoặc trước các dịp quan trọng."
+    },
+    {
+      "serviceSlug": "ve-sinh-van-phong",
+      "blurb": "Thích hợp cho văn phòng vừa cần duy trì sự gọn gàng ổn định mà không phải tự xoay lịch dọn."
+    },
+    {
+      "serviceSlug": "ve-sinh-cong-nghiep",
+      "blurb": "Có thể áp dụng cho khu vực sản xuất hoặc mặt bằng sau cải tạo cần xử lý theo phương án cụ thể."
+    }
+  ],
+  "seo": {
+    "title": "Dịch vụ vệ sinh tại Thanh Hóa | Vệ Sinh Trúc Mai",
+    "description": "Dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp tại Thanh Hóa với báo giá minh bạch và quy trình rõ ràng.",
+    "keywords": [
+      "ve sinh thanh hoa",
+      "don dep nha thanh hoa",
+      "tong ve sinh thanh hoa"
+    ]
+  }
+}

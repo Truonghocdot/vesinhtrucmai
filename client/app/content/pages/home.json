@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "eyebrow": "Dịch vụ vệ sinh tại Hà Nội và Thanh Hóa",
+    "title": "Không gian sạch gọn để gia đình và doanh nghiệp vận hành nhẹ hơn.",
+    "description": "Vệ Sinh Trúc Mai giúp bạn xử lý từ dọn định kỳ, tổng vệ sinh đến các công việc bàn giao chuyên sâu với báo giá rõ, lịch hẹn nhanh và quy trình sạch sẽ từng bước.",
+    "primaryCta": { "label": "Đặt lịch tư vấn", "href": "/booking" },
+    "secondaryCta": { "label": "Xem dịch vụ", "href": "/dich-vu" },
+    "metrics": [
+      { "value": "15 phút", "label": "Phản hồi tư vấn ban đầu" },
+      { "value": "3 nhóm", "label": "Nhà ở, văn phòng, công nghiệp" },
+      { "value": "2 khu vực", "label": "Hà Nội và Thanh Hóa triển khai linh hoạt" }
+    ]
+  },
+  "trustStrip": [
+    "Báo giá minh bạch",
+    "Checklist bàn giao",
+    "Nhân sự được đào tạo",
+    "Thi công đúng giờ",
+    "Theo sát sau dịch vụ"
+  ],
+  "reasonsTitle": "Vì sao khách hàng chọn Trúc Mai cho các ca vệ sinh định kỳ và tổng vệ sinh",
+  "reasons": [
+    {
+      "title": "Báo giá dễ hiểu trước khi làm",
+      "description": "Chúng tôi chốt phạm vi công việc, hạng mục phát sinh và mức giá tham khảo ngay từ đầu để bạn chủ động ngân sách."
+    },
+    {
+      "title": "Quy trình bàn giao rõ đầu việc",
+      "description": "Mỗi gói đều có checklist vệ sinh, người phụ trách và thời điểm bàn giao để tránh tình trạng làm xong nhưng khó đối chiếu."
+    },
+    {
+      "title": "Đội ngũ lịch sự, thao tác gọn",
+      "description": "Nhân sự được đào tạo theo khuôn mẫu gia đình và doanh nghiệp, ưu tiên tác phong đúng giờ, giao tiếp vừa đủ và giữ gìn tài sản."
+    }
+  ],
+  "featuredServiceSlugs": [
+    "ve-sinh-nha-o",
+    "ve-sinh-van-phong",
+    "ve-sinh-cong-nghiep"
+  ],
+  "featuredLocationSlugs": ["ha-noi", "thanh-hoa"],
+  "pricingPreviewCodes": [
+    "nha-o-goi-gon-gang",
+    "van-phong-dinh-ky",
+    "cong-nghiep-tong-luc"
+  ],
+  "cta": {
+    "eyebrow": "Cần khảo sát nhanh?",
+    "title": "Cho Trúc Mai biết khu vực, loại dịch vụ và khung giờ bạn mong muốn.",
+    "description": "Bạn sẽ nhận tư vấn ban đầu cùng checklist gợi ý phù hợp với hiện trạng thực tế, từ đó quyết định gói làm việc dễ hơn.",
+    "primaryCta": { "label": "Gửi nhu cầu ngay", "href": "/booking" },
+    "secondaryCta": { "label": "Liên hệ trực tiếp", "href": "/lien-he" }
+  },
+  "seo": {
+    "title": "Vệ Sinh Trúc Mai | Dịch vụ vệ sinh nhà ở, văn phòng, công nghiệp",
+    "description": "Website dịch vụ vệ sinh Trúc Mai với bảng giá tham khảo, dịch vụ vệ sinh nhà ở, văn phòng, công nghiệp tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "ve sinh truc mai",
+      "dich vu ve sinh ha noi",
+      "dich vu ve sinh thanh hoa",
+      "tong ve sinh nha o",
+      "ve sinh van phong"
+    ]
+  }
+}

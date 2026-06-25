@@ -1,0 +1,61 @@
+{
+  "slug": "ve-sinh-van-phong",
+  "name": "Vệ sinh văn phòng",
+  "excerpt": "Giải pháp vệ sinh văn phòng định kỳ cho đội nhóm cần môi trường làm việc sáng, gọn và ổn định.",
+  "summary": "Trúc Mai hỗ trợ các văn phòng nhỏ và vừa duy trì không gian chỉn chu qua lịch làm đều, đầu việc rõ và cách phối hợp linh hoạt với khung giờ vận hành của doanh nghiệp.",
+  "hero": {
+    "eyebrow": "Dịch vụ cho doanh nghiệp",
+    "title": "Vệ sinh văn phòng ổn định để đội ngũ bắt đầu ngày làm việc trong trạng thái tốt hơn.",
+    "description": "Thích hợp cho văn phòng cần lịch theo ngày, theo tuần hoặc theo khung ngoài giờ hành chính để không ảnh hưởng tới vận hành chung.",
+    "highlights": [
+      "Có thể triển khai trước hoặc sau giờ làm",
+      "Giữ ổn định quầy tiếp khách, bàn làm việc, pantry",
+      "Phù hợp văn phòng nhỏ đến quy mô vừa"
+    ]
+  },
+  "cardHighlights": [
+    "Lịch định kỳ linh hoạt",
+    "Có thể làm ngoài giờ hành chính",
+    "Dễ tích hợp checklist nội bộ"
+  ],
+  "benefits": [
+    {
+      "title": "Không gian tiếp khách gọn gàng hơn",
+      "description": "Khu vực lễ tân, phòng họp và quầy pantry được ưu tiên để giữ ấn tượng chuyên nghiệp xuyên suốt tuần làm việc."
+    },
+    {
+      "title": "Tần suất rõ ràng theo ngân sách",
+      "description": "Doanh nghiệp có thể chọn lịch dọn phù hợp theo số ngày vận hành, diện tích và mức độ sử dụng của từng khu vực."
+    },
+    {
+      "title": "Phối hợp thuận tiện với quản lý văn phòng",
+      "description": "Đầu mối trao đổi giúp xác nhận nhanh các hạng mục ưu tiên hoặc những thay đổi nhỏ trong từng tuần."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Có nhận thi công ngoài giờ hành chính không?",
+      "answer": "Có. Đây là lựa chọn phổ biến với nhiều văn phòng và được xác nhận lại theo khung giờ, bảo vệ tòa nhà hoặc điều kiện ra vào."
+    },
+    {
+      "question": "Dịch vụ có phù hợp văn phòng nhỏ không?",
+      "answer": "Có. Trúc Mai thiết kế gói riêng cho văn phòng dưới 100m2 và nhóm quy mô vừa với tần suất linh hoạt."
+    },
+    {
+      "question": "Có thể thêm lịch tổng vệ sinh định kỳ theo quý không?",
+      "answer": "Hoàn toàn được. Nhiều doanh nghiệp kết hợp lịch dọn thường xuyên với một buổi tổng vệ sinh sâu theo quý hoặc trước sự kiện."
+    }
+  ],
+  "pricingRefs": ["van-phong-dinh-ky"],
+  "coverageRefs": ["ha-noi", "thanh-hoa"],
+  "seo": {
+    "title": "Vệ sinh văn phòng tại Hà Nội và Thanh Hóa | Vệ Sinh Trúc Mai",
+    "description": "Dịch vụ vệ sinh văn phòng định kỳ, linh hoạt ngoài giờ hành chính cho doanh nghiệp tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "ve sinh van phong",
+      "don dep van phong ha noi",
+      "ve sinh cong ty thanh hoa",
+      "tong ve sinh van phong"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "eyebrow": "Giới thiệu thương hiệu",
+    "title": "Trúc Mai được xây để giải quyết nỗi mệt trong những việc dọn dẹp kéo dài.",
+    "description": "Chúng tôi theo đuổi một kiểu dịch vụ vệ sinh nhẹ đầu hơn cho khách hàng: tư vấn nhanh, phạm vi rõ, thi công gọn và báo cáo lại bằng ngôn ngữ dễ hiểu.",
+    "primaryCta": { "label": "Xem dịch vụ", "href": "/dich-vu" },
+    "secondaryCta": { "label": "Đặt lịch tư vấn", "href": "/booking" }
+  },
+  "storyParagraphs": [
+    "Vệ Sinh Trúc Mai bắt đầu từ nhu cầu rất đời thường: nhiều gia đình và văn phòng nhỏ cần một đội vệ sinh làm việc chỉn chu nhưng không quá cồng kềnh trong quy trình liên hệ.",
+    "Chúng tôi tập trung vào ba điều: phản hồi nhanh, báo giá minh bạch và checklist bàn giao cụ thể. Đây là những thứ giúp khách hàng cảm thấy yên tâm hơn trước, trong và sau khi làm dịch vụ.",
+    "Khi mở rộng sang Hà Nội và Thanh Hóa, Trúc Mai giữ cùng một nguyên tắc triển khai: khảo sát đủ thông tin, lên gói phù hợp hiện trạng và nói rõ những gì nằm trong phạm vi lẫn ngoài phạm vi."
+  ],
+  "commitments": [
+    {
+      "title": "Nói rõ trước khi làm",
+      "description": "Bất kỳ gói dịch vụ nào cũng cần được giải thích dễ hiểu về khối lượng việc, thiết bị dùng và mức giá dự kiến."
+    },
+    {
+      "title": "Tôn trọng không gian của khách hàng",
+      "description": "Đội ngũ được nhắc kỹ về tác phong, cách di chuyển trong nhà hoặc văn phòng và cách giữ đồ dùng sau khi dọn."
+    },
+    {
+      "title": "Luôn có đầu mối phụ trách",
+      "description": "Bạn không phải nhắn qua quá nhiều người. Mỗi ca làm đều có đầu mối để xác nhận lịch, phạm vi và phản hồi kết quả."
+    }
+  ],
+  "seo": {
+    "title": "Giới thiệu Vệ Sinh Trúc Mai",
+    "description": "Tìm hiểu cách Vệ Sinh Trúc Mai vận hành dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp với quy trình rõ ràng tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "gioi thieu ve sinh truc mai",
+      "quy trinh ve sinh truc mai",
+      "don vi ve sinh ha noi thanh hoa"
+    ]
+  }
+}

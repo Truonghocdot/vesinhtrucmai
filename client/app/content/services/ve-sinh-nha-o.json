@@ -1,0 +1,61 @@
+{
+  "slug": "ve-sinh-nha-o",
+  "name": "Vệ sinh nhà ở",
+  "excerpt": "Gói dọn dẹp nhà ở phù hợp căn hộ, nhà phố và các nhu cầu tổng vệ sinh trước khi vào ở.",
+  "summary": "Dịch vụ vệ sinh nhà ở của Trúc Mai tập trung vào tính gọn gàng, đúng nhịp sinh hoạt và kiểm soát rõ những khu vực cần xử lý kỹ như bếp, nhà tắm, ban công hay cửa kính.",
+  "hero": {
+    "eyebrow": "Dịch vụ cho gia đình",
+    "title": "Vệ sinh nhà ở với cách làm chỉn chu nhưng vẫn nhẹ đầu cho gia chủ.",
+    "description": "Phù hợp cho dọn định kỳ, tổng vệ sinh cuối tuần, làm sạch trước khi chuyển vào hoặc chuẩn bị nhà cửa cho dịp quan trọng.",
+    "highlights": [
+      "Ưu tiên bề mặt sinh hoạt chính",
+      "Linh hoạt theo căn hộ hoặc nhà phố",
+      "Có checklist bàn giao theo phòng"
+    ]
+  },
+  "cardHighlights": [
+    "Dọn định kỳ theo tuần hoặc theo tháng",
+    "Tổng vệ sinh trước khi chuyển vào",
+    "Làm kỹ bếp, nhà tắm, ban công"
+  ],
+  "benefits": [
+    {
+      "title": "Dễ chọn phạm vi công việc",
+      "description": "Bạn có thể bắt đầu từ gói dọn gọn hoặc tổng vệ sinh kỹ mà không phải mô tả quá nhiều thuật ngữ chuyên môn."
+    },
+    {
+      "title": "Phù hợp nhịp sinh hoạt gia đình",
+      "description": "Trúc Mai sắp xếp khung giờ phù hợp để hạn chế ảnh hưởng tới việc nghỉ ngơi, làm việc tại nhà hoặc đón trẻ nhỏ."
+    },
+    {
+      "title": "Kết quả dễ kiểm tra",
+      "description": "Bàn giao theo từng khu vực như phòng khách, bếp, toilet, cửa kính hoặc ban công để bạn kiểm nhanh khi nhận lại nhà."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Nhà ở cần đặt lịch trước bao lâu?",
+      "answer": "Các ca cơ bản có thể đặt trong ngày nếu còn slot. Tổng vệ sinh hoặc nhà phố nhiều tầng nên đặt sớm hơn để chuẩn bị nhân sự phù hợp."
+    },
+    {
+      "question": "Có nhận làm cuối tuần không?",
+      "answer": "Có. Trúc Mai vẫn nhận các ca cuối tuần và sẽ xác nhận trước về thời gian, diện tích cùng hạng mục ưu tiên."
+    },
+    {
+      "question": "Tôi có cần chuẩn bị dụng cụ không?",
+      "answer": "Thông thường đội ngũ sẽ chuẩn bị vật tư cơ bản. Với mặt bằng đặc thù, chúng tôi sẽ báo trước nếu cần thêm dụng cụ riêng."
+    }
+  ],
+  "pricingRefs": ["nha-o-goi-gon-gang", "nha-o-tong-luc"],
+  "coverageRefs": ["ha-noi", "thanh-hoa"],
+  "seo": {
+    "title": "Vệ sinh nhà ở tại Hà Nội và Thanh Hóa | Vệ Sinh Trúc Mai",
+    "description": "Dịch vụ vệ sinh nhà ở cho căn hộ, nhà phố và nhu cầu tổng vệ sinh tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "ve sinh nha o",
+      "tong ve sinh can ho",
+      "don dep nha cua ha noi",
+      "ve sinh nha thanh hoa"
+    ]
+  }
+}

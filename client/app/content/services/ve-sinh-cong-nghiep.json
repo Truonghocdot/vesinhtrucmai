@@ -1,0 +1,61 @@
+{
+  "slug": "ve-sinh-cong-nghiep",
+  "name": "Vệ sinh công nghiệp",
+  "excerpt": "Giải pháp cho mặt bằng lớn, khu hậu thi công hoặc khu vực cần phối hợp nhân sự và tiến độ kỹ hơn.",
+  "summary": "Dịch vụ vệ sinh công nghiệp của Trúc Mai hướng tới những mặt bằng có quy mô lớn hơn, nhiều hạng mục hơn và cần làm việc theo phương án rõ ràng về an toàn, tiến độ và bàn giao.",
+  "hero": {
+    "eyebrow": "Dịch vụ cho mặt bằng lớn",
+    "title": "Vệ sinh công nghiệp với phương án phối hợp rõ ràng ngay từ khâu khảo sát.",
+    "description": "Thích hợp cho khu nhà xưởng, hành lang lớn, mặt bằng mới hoàn thiện hoặc khu vực cần tổng vệ sinh trước khi bàn giao đưa vào sử dụng.",
+    "highlights": [
+      "Cần khảo sát và chốt phương án triển khai",
+      "Phù hợp mặt bằng sau thi công hoặc bàn giao",
+      "Ưu tiên tiến độ và an toàn khu vực"
+    ]
+  },
+  "cardHighlights": [
+    "Khảo sát phương án trước khi chốt",
+    "Làm theo khối lượng thực tế",
+    "Phù hợp mặt bằng lớn và phức tạp"
+  ],
+  "benefits": [
+    {
+      "title": "Dễ kiểm soát khối lượng công việc",
+      "description": "Các khu vực được chia rõ để dự toán nhân lực, thời gian và dụng cụ phù hợp với đặc điểm mặt bằng."
+    },
+    {
+      "title": "Phù hợp lịch bàn giao gấp",
+      "description": "Đội ngũ có thể phối hợp theo mốc thời gian ngắn khi mặt bằng cần hoàn thiện nhanh trước khi đưa vào sử dụng."
+    },
+    {
+      "title": "Trao đổi rõ về an toàn và quy định hiện trường",
+      "description": "Với các khu vực có yêu cầu đặc thù, Trúc Mai xác nhận trước quy tắc ra vào, điểm tập kết và giới hạn thi công."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Khi nào cần khảo sát trực tiếp?",
+      "answer": "Hầu hết các ca vệ sinh công nghiệp nên khảo sát hoặc nhận video chi tiết để bóc tách đúng hiện trạng và lên phương án phù hợp."
+    },
+    {
+      "question": "Có nhận mặt bằng sau xây dựng không?",
+      "answer": "Có. Đây là một trong những nhu cầu phổ biến và thường được báo giá theo m2, độ bẩn và mức độ hoàn thiện của công trình."
+    },
+    {
+      "question": "Có thể làm đêm hoặc cuối tuần không?",
+      "answer": "Có thể, nhưng cần xác nhận sớm để bố trí nhân sự, phương án ánh sáng, an ninh và quy định ra vào của địa điểm."
+    }
+  ],
+  "pricingRefs": ["cong-nghiep-tong-luc"],
+  "coverageRefs": ["ha-noi", "thanh-hoa"],
+  "seo": {
+    "title": "Vệ sinh công nghiệp tại Hà Nội và Thanh Hóa | Vệ Sinh Trúc Mai",
+    "description": "Dịch vụ vệ sinh công nghiệp cho mặt bằng lớn, hậu thi công và khu vực bàn giao tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "ve sinh cong nghiep",
+      "tong ve sinh cong trinh",
+      "ve sinh nha xuong ha noi",
+      "ve sinh mat bang thanh hoa"
+    ]
+  }
+}

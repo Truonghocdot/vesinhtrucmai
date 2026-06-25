@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "eyebrow": "Liên hệ",
+    "title": "Trao đổi nhanh về nhu cầu vệ sinh để nhận lộ trình phù hợp.",
+    "description": "Bạn có thể gọi trực tiếp, nhắn Zalo hoặc để lại thông tin qua form booking. Trúc Mai sẽ phản hồi theo khung giờ làm việc và ưu tiên các ca cần khảo sát gấp.",
+    "primaryCta": { "label": "Đặt lịch tư vấn", "href": "/booking" },
+    "secondaryCta": { "label": "Xem bảng giá", "href": "/bang-gia" }
+  },
+  "responsePromises": [
+    "Phản hồi nhanh trong ngày làm việc",
+    "Tư vấn dựa trên hiện trạng thật, không chốt gói theo cảm tính",
+    "Có thể linh hoạt khảo sát qua ảnh, video hoặc hẹn trực tiếp"
+  ],
+  "seo": {
+    "title": "Liên hệ Vệ Sinh Trúc Mai",
+    "description": "Liên hệ Vệ Sinh Trúc Mai để đặt lịch tư vấn dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp tại Hà Nội, Thanh Hóa.",
+    "keywords": [
+      "lien he ve sinh truc mai",
+      "dat lich ve sinh ha noi",
+      "tu van ve sinh thanh hoa"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "brandName": "Vệ Sinh Trúc Mai",
+  "tagline": "Dịch vụ vệ sinh sáng gọn, quy trình chỉn chu, báo giá minh bạch.",
+  "description": "Vệ Sinh Trúc Mai cung cấp dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp tại Hà Nội và Thanh Hóa với quy trình rõ ràng, nhân sự đúng giờ và checklist bàn giao minh bạch.",
+  "phone": "0988123456",
+  "phoneDisplay": "0988 123 456",
+  "email": "hello@vesinhtrucmai.vn",
+  "address": "Phục vụ linh hoạt tại Hà Nội và Thanh Hóa",
+  "siteUrl": "https://vesinhtrucmai.vn",
+  "serviceArea": "Hà Nội và Thanh Hóa",
+  "businessHours": [
+    "Thứ 2 - Thứ 7: 07:00 - 20:00",
+    "Chủ nhật: 08:00 - 17:00"
+  ],
+  "navigation": [
+    { "label": "Dịch vụ", "href": "/dich-vu" },
+    { "label": "Bảng giá", "href": "/bang-gia" },
+    { "label": "Khu vực", "href": "/khu-vuc/ha-noi" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Liên hệ", "href": "/lien-he" }
+  ],
+  "socialLinks": [
+    { "label": "Facebook", "href": "https://facebook.com/vesinhtrucmai" },
+    { "label": "Zalo", "href": "https://zalo.me/0988123456" }
+  ],
+  "trustHighlights": [
+    "Phản hồi tư vấn trong 15 phút",
+    "Checklist bàn giao rõ ràng",
+    "Nhân sự đúng giờ, đúng quy trình"
+  ],
+  "primaryCta": {
+    "label": "Đặt lịch tư vấn",
+    "href": "/booking"
+  },
+  "secondaryCta": {
+    "label": "Xem bảng giá",
+    "href": "/bang-gia"
+  }
+}

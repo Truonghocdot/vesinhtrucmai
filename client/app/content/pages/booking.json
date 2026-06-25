@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "eyebrow": "Booking tư vấn",
+    "title": "Gửi nhu cầu một lần để Trúc Mai gợi ý đúng gói dịch vụ và khung triển khai.",
+    "description": "Biểu mẫu này được thiết kế cho sprint đầu như một lead form tĩnh, giúp đội ngũ nhận đủ thông tin cơ bản trước khi tiến tới báo giá hoặc khảo sát.",
+    "primaryCta": { "label": "Gửi thông tin ngay", "href": "#booking-form" },
+    "secondaryCta": { "label": "Gọi tư vấn", "href": "/lien-he" }
+  },
+  "introPoints": [
+    "Phù hợp khi bạn cần hỏi nhanh trước khi chốt lịch",
+    "Có thể để lại ghi chú về diện tích, số phòng hoặc đặc thù mặt bằng",
+    "Sẵn sàng để sprint sau tích hợp bộ tính giá tự động"
+  ],
+  "sidebarTitle": "Quy trình tiếp nhận tại Trúc Mai",
+  "sidebarPoints": [
+    "Tiếp nhận thông tin và xác định loại nhu cầu",
+    "Gợi ý gói phù hợp hoặc lịch khảo sát bổ sung",
+    "Xác nhận lại phạm vi, thời gian và đầu mối liên hệ"
+  ],
+  "fieldLabels": {
+    "fullName": "Họ và tên",
+    "phone": "Số điện thoại",
+    "location": "Khu vực cần vệ sinh",
+    "service": "Loại dịch vụ",
+    "note": "Mô tả ngắn nhu cầu"
+  },
+  "ctaCopy": "Thông tin của bạn hiện được dùng cho mô phỏng luồng tiếp nhận ở giao diện sprint 1.",
+  "seo": {
+    "title": "Đặt lịch tư vấn | Vệ Sinh Trúc Mai",
+    "description": "Gửi yêu cầu tư vấn dịch vụ vệ sinh tại Hà Nội và Thanh Hóa qua form booking của Vệ Sinh Trúc Mai.",
+    "keywords": [
+      "booking ve sinh",
+      "dat lich don dep",
+      "tu van ve sinh truc mai"
+    ]
+  }
+}

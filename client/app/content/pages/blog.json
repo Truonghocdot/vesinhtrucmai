@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "eyebrow": "Blog và cẩm nang",
+    "title": "Nội dung SEO hữu ích xoay quanh vệ sinh nhà ở, văn phòng và lịch bảo trì.",
+    "description": "Trang blog tập trung vào những bài dễ đọc, dễ áp dụng để bạn hiểu rõ hơn về cách lên kế hoạch dọn dẹp, bàn giao và giữ không gian luôn ổn định.",
+    "primaryCta": { "label": "Xem dịch vụ", "href": "/dich-vu" },
+    "secondaryCta": { "label": "Liên hệ tư vấn", "href": "/lien-he" }
+  },
+  "featuredTopic": "Tối ưu checklist theo mùa nồm, bàn giao văn phòng và tần suất vệ sinh định kỳ.",
+  "seo": {
+    "title": "Blog vệ sinh | Vệ Sinh Trúc Mai",
+    "description": "Các bài viết SEO về vệ sinh nhà ở, vệ sinh văn phòng, kinh nghiệm giữ không gian sạch gọn tại Hà Nội và Thanh Hóa.",
+    "keywords": [
+      "blog ve sinh",
+      "meo don nha",
+      "kinh nghiem ve sinh van phong",
+      "seo ve sinh ha noi"
+    ]
+  }
+}
