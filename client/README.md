@@ -19,6 +19,17 @@ npm run start
 
 Mac dinh app se chay tai `http://localhost:3000`.
 
+## Google Analytics
+
+Tao file `.env.production` hoac `.env.local` trong thu muc `client`:
+
+```bash
+NEXT_PUBLIC_SITE_URL=https://vesinhtrucmai.com.vn
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+Neu khong khai bao `NEXT_PUBLIC_GA_MEASUREMENT_ID` thi site van chay binh thuong va khong gui du lieu analytics.
+
 ## Deploy len VPS
 
 Huong de xuat cho du an nay:
@@ -51,6 +62,8 @@ cd trucmai/client
 ### 3. Cai dependency va build
 
 ```bash
+cp .env.example .env.production
+# sua NEXT_PUBLIC_GA_MEASUREMENT_ID truoc khi build
 npm ci
 npm run build
 ```

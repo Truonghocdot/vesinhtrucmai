@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
+import { GoogleAnalytics } from "@/components/common/analytics/google-analytics";
 import { getSiteConfig } from "@/lib/content/site";
 
 import "./globals.css";
@@ -72,6 +73,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const siteConfig = await getSiteConfig();
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -120,6 +122,9 @@ export default async function RootLayout({
       className={`${bodyFont.variable} ${headingFont.variable} h-full scroll-smooth`}
     >
       <body className="min-h-full bg-[linear-gradient(180deg,_#fffaf5_0%,_#ffffff_18%,_#ffffff_100%)] font-sans text-slate-900 antialiased">
+        {gaMeasurementId ? (
+          <GoogleAnalytics measurementId={gaMeasurementId} />
+        ) : null}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
