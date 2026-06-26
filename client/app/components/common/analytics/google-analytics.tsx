@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 
@@ -32,7 +32,7 @@ function trackPageView(measurementId: string, pagePath: string) {
   });
 }
 
-export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
+function GoogleAnalyticsPageTracker({ measurementId }: GoogleAnalyticsProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -42,6 +42,11 @@ export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
 
     trackPageView(measurementId, pagePath);
   }, [measurementId, pathname, searchParams]);
+
+  return null;
+}
+
+export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
 
   return (
     <>
@@ -58,6 +63,9 @@ export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
           gtag('config', '${measurementId}', { send_page_view: false });
         `}
       </Script>
+      <Suspense fallback={null}>
+        <GoogleAnalyticsPageTracker measurementId={measurementId} />
+      </Suspense>
     </>
   );
 }
