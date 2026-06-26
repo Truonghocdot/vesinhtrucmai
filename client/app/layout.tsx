@@ -125,7 +125,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full bg-[linear-gradient(180deg,_#fffaf5_0%,_#ffffff_18%,_#ffffff_100%)] font-sans text-slate-900 antialiased">
         {gaMeasurementId ? (
-          <GoogleAnalytics measurementId={gaMeasurementId} />
+          <GoogleAnalytics measurementId={'G-9L4LK0JNXM'} />
         ) : null}
         <script
           type="application/ld+json"
