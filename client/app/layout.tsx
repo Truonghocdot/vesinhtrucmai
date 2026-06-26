@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Be_Vietnam_Pro, Space_Grotesk } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
 import { GoogleAnalytics } from "@/components/common/analytics/google-analytics";
 import { getSiteConfig } from "@/lib/content/site";
@@ -7,16 +7,17 @@ import { getSiteUrl } from "@/lib/utils/site-url";
 
 import "./globals.css";
 
-const bodyFont = Be_Vietnam_Pro({
+const bodyFont = Inter({
   variable: "--font-body",
   subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: "variable",
 });
 
 const headingFont = Space_Grotesk({
   variable: "--font-heading",
   subsets: ["latin", "vietnamese"],
-  weight: ["500", "700"],
+  weight: "variable",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -125,7 +126,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full bg-[linear-gradient(180deg,_#fffaf5_0%,_#ffffff_18%,_#ffffff_100%)] font-sans text-slate-900 antialiased">
         {gaMeasurementId ? (
-          <GoogleAnalytics measurementId={'G-9L4LK0JNXM'} />
+          <GoogleAnalytics measurementId={gaMeasurementId} />
         ) : null}
         <script
           type="application/ld+json"

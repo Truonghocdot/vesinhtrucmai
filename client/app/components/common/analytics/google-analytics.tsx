@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 
@@ -35,8 +35,14 @@ function trackPageView(measurementId: string, pagePath: string) {
 function GoogleAnalyticsPageTracker({ measurementId }: GoogleAnalyticsProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const hasTrackedInitialPage = useRef(false);
 
   useEffect(() => {
+    if (!hasTrackedInitialPage.current) {
+      hasTrackedInitialPage.current = true;
+      return;
+    }
+
     const query = searchParams.toString();
     const pagePath = query ? `${pathname}?${query}` : pathname;
 
@@ -52,9 +58,9 @@ export function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
     <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
