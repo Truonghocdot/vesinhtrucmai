@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getServicesPageContent } from "@/lib/content/pages";
 import { getAllServices } from "@/lib/content/services";
 import { getServicePath } from "@/lib/routes/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getServicesPageContent();
@@ -33,6 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ServicesPage() {
   const content = await getServicesPageContent();
   const services = await getAllServices();
+  const siteUrl = getSiteUrl();
 
   const schema = {
     "@context": "https://schema.org",
@@ -45,7 +47,7 @@ export default async function ServicesPage() {
         "@type": "Service",
         "name": service.name,
         "description": service.excerpt,
-        "url": `https://vesinhtrucmai.vn/dich-vu/${service.slug}`,
+        "url": `${siteUrl}/dich-vu/${service.slug}`,
       },
     })),
   };

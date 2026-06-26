@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getBlogPostBySlug, getAllBlogPosts } from "@/lib/content/blog";
 import { getBlogPath } from "@/lib/routes/site";
 import { formatDateVi } from "@/lib/utils/format";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -58,6 +59,7 @@ export async function generateStaticParams() {
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = await getBlogPostBySlug(slug);
+  const siteUrl = getSiteUrl();
 
   if (!post) {
     notFound();
@@ -86,12 +88,12 @@ export default async function BlogPostPage({ params }: Props) {
       "name": "Vệ Sinh Trúc Mai",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://vesinhtrucmai.vn/images/og-image.png"
+        "url": `${siteUrl}/images/og-image.png`
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://vesinhtrucmai.vn/blog/${slug}`
+      "@id": `${siteUrl}/blog/${slug}`
     }
   };
 

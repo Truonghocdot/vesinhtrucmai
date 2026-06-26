@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getHomePageContent } from "@/lib/content/pages";
 import { getAllServices } from "@/lib/content/services";
 import { getServicePath } from "@/lib/routes/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getHomePageContent();
@@ -40,6 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
   const content = await getHomePageContent();
   const allServices = await getAllServices();
+  const siteUrl = getSiteUrl();
 
   // Filter services by the slugs featured on the homepage
   const featuredServices = allServices.filter((s) =>
@@ -50,13 +52,13 @@ export default async function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Vệ Sinh Trúc Mai",
-    "url": "https://vesinhtrucmai.vn",
+    "url": siteUrl,
     "description": content.seo.description,
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://vesinhtrucmai.vn/booking?search={search_term_string}",
+      "target": `${siteUrl}/booking?search={search_term_string}`,
       "query-input": "required name=search_term_string"
-    }
+        }
   };
 
   return (

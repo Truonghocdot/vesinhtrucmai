@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getLocationBySlug, getAllLocations } from "@/lib/content/locations";
 import { getAllServices } from "@/lib/content/services";
 import { getServiceLocationPath } from "@/lib/routes/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 type Props = {
   params: Promise<{ locationSlug: string }>;
@@ -51,6 +52,7 @@ export async function generateStaticParams() {
 export default async function LocationDetailPage({ params }: Props) {
   const { locationSlug } = await params;
   const location = await getLocationBySlug(locationSlug);
+  const siteUrl = getSiteUrl();
 
   if (!location) {
     notFound();
@@ -67,7 +69,7 @@ export default async function LocationDetailPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": `Vệ Sinh Trúc Mai tại ${location.name}`,
-    "url": `https://vesinhtrucmai.vn/khu-vuc/${locationSlug}`,
+    "url": `${siteUrl}/khu-vuc/${locationSlug}`,
     "description": location.seo.description,
     "about": {
       "@type": "AdministrativeArea",

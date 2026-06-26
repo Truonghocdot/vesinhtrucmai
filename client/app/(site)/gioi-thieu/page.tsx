@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAboutPageContent } from "@/lib/content/pages";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getAboutPageContent();
@@ -30,16 +31,17 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function AboutPage() {
   const content = await getAboutPageContent();
+  const siteUrl = getSiteUrl();
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "Giới thiệu Vệ Sinh Trúc Mai",
-    "url": "https://vesinhtrucmai.vn/gioi-thieu",
+    "url": `${siteUrl}/gioi-thieu`,
     "mainEntity": {
       "@type": "Organization",
       "name": "Vệ Sinh Trúc Mai",
-      "url": "https://vesinhtrucmai.vn",
+      "url": siteUrl,
       "description": content.seo.description,
     },
   };

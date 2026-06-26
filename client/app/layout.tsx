@@ -3,6 +3,7 @@ import { Be_Vietnam_Pro, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
 import { GoogleAnalytics } from "@/components/common/analytics/google-analytics";
 import { getSiteConfig } from "@/lib/content/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 import "./globals.css";
 
@@ -19,7 +20,7 @@ const headingFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vesinhtrucmai.vn"),
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: "Vệ Sinh Trúc Mai | Dịch vụ vệ sinh nhà ở, văn phòng và công nghiệp",
     template: "%s | Vệ Sinh Trúc Mai",
@@ -74,14 +75,15 @@ export default async function RootLayout({
 }>) {
   const siteConfig = await getSiteConfig();
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+  const siteUrl = getSiteUrl();
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://vesinhtrucmai.vn/#localbusiness",
+    "@id": `${siteUrl}/#localbusiness`,
     "name": siteConfig.brandName,
-    "image": "https://vesinhtrucmai.vn/images/og-image.png",
-    "url": "https://vesinhtrucmai.vn",
+    "image": `${siteUrl}/images/og-image.png`,
+    "url": siteUrl,
     "telephone": siteConfig.phone,
     "priceRange": "$$",
     "address": {

@@ -4,6 +4,7 @@ import { getBlogPageContent } from "@/lib/content/pages";
 import { getAllBlogPosts } from "@/lib/content/blog";
 import { getBlogPath } from "@/lib/routes/site";
 import { formatDateVi } from "@/lib/utils/format";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getBlogPageContent();
@@ -34,19 +35,20 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function BlogPage() {
   const content = await getBlogPageContent();
   const posts = await getAllBlogPosts();
+  const siteUrl = getSiteUrl();
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "Blog Vệ Sinh Trúc Mai",
-    "url": "https://vesinhtrucmai.vn/blog",
+    "url": `${siteUrl}/blog`,
     "description": content.seo.description,
     "blogPost": posts.map((post) => ({
       "@type": "BlogPosting",
       "headline": post.title,
       "description": post.excerpt,
       "datePublished": post.publishedAt,
-      "url": `https://vesinhtrucmai.vn/blog/${post.slug}`,
+      "url": `${siteUrl}/blog/${post.slug}`,
     })),
   };
 

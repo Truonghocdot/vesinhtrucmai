@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getServiceBySlug, getAllServices } from "@/lib/content/services";
 import { getLocationBySlug, getAllLocations } from "@/lib/content/locations";
 import { getPricingPackagesForService } from "@/lib/content/pricing";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 type Props = {
   params: Promise<{ serviceSlug: string; locationSlug: string }>;
@@ -79,6 +80,7 @@ export default async function ServiceLocationPage({ params }: Props) {
   const { serviceSlug, locationSlug } = await params;
   const service = await getServiceBySlug(serviceSlug);
   const location = await getLocationBySlug(locationSlug);
+  const siteUrl = getSiteUrl();
 
   if (!service || !location || !service.coverageRefs.includes(locationSlug)) {
     notFound();
@@ -97,7 +99,7 @@ export default async function ServiceLocationPage({ params }: Props) {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Vệ Sinh Trúc Mai",
-      "url": "https://vesinhtrucmai.vn"
+      "url": siteUrl
     },
     "areaServed": {
       "@type": "AdministrativeArea",

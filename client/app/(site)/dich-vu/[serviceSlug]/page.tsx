@@ -5,6 +5,7 @@ import { getServiceBySlug, getAllServices } from "@/lib/content/services";
 import { getPricingPackagesForService } from "@/lib/content/pricing";
 import { getAllLocations } from "@/lib/content/locations";
 import { getServiceLocationPath } from "@/lib/routes/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 type Props = {
   params: Promise<{ serviceSlug: string }>;
@@ -59,6 +60,7 @@ export async function generateStaticParams() {
 export default async function ServiceDetailPage({ params }: Props) {
   const { serviceSlug } = await params;
   const service = await getServiceBySlug(serviceSlug);
+  const siteUrl = getSiteUrl();
 
   if (!service) {
     notFound();
@@ -78,7 +80,7 @@ export default async function ServiceDetailPage({ params }: Props) {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Vệ Sinh Trúc Mai",
-      "url": "https://vesinhtrucmai.vn"
+      "url": siteUrl
     },
     "areaServed": coveredLocations.map((loc) => ({
       "@type": "AdministrativeArea",

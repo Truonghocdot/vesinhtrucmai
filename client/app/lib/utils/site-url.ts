@@ -1,4 +1,4 @@
-const FALLBACK_SITE_URL = "https://vesinhtrucmai.vn";
+const FALLBACK_SITE_URL = "https://vesinhtrucmai.com.vn";
 
 export function getSiteUrl() {
   const raw =

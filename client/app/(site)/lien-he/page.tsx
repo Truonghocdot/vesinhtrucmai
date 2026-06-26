@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getContactPageContent } from "@/lib/content/pages";
 import { getSiteConfig } from "@/lib/content/site";
+import { getSiteUrl } from "@/lib/utils/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
   const content = await getContactPageContent();
@@ -32,12 +33,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ContactPage() {
   const content = await getContactPageContent();
   const siteConfig = await getSiteConfig();
+  const siteUrl = getSiteUrl();
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Liên hệ Vệ Sinh Trúc Mai",
-    "url": "https://vesinhtrucmai.vn/lien-he",
+    "url": `${siteUrl}/lien-he`,
     "mainEntity": {
       "@type": "LocalBusiness",
       "name": siteConfig.brandName,
